@@ -44,7 +44,8 @@ lxc config trust add lxd_coriolis.crt
 After generating the client keypair, input it into the Coriolis Endpoint in **base64** format.
 
 ```bash
-base64 -w0 lxd_coriolis.crt<br>base64 -w0 lxd_coriolis.key
+base64 -w0 lxd_coriolis.crt
+base64 -w0 lxd_coriolis.key
 ```
 
 ## LXD platform specifics
